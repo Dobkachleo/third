@@ -19,7 +19,7 @@ struct List {
 *
 *	\param **head - list head pointer-pointer
 *   \param value - value of element
-*   \var tmp - temporary list
+*   <br>tmp - temporary list
 */
 void Push(List **head, int value) {
 	List *tmp=new List;
@@ -28,30 +28,12 @@ void Push(List **head, int value) {
 	*head=tmp;
 };
 
-/**
-@function Take
-Function that take the element of the list. Shifts the pointers of the elements, returning the value of the specific number.
-@param last – list for temporary copy
-@return element from the list
-*/
-/*int Take(List **head) {
-	List* last = NULL;
-	if (head == NULL) {
-		return 0;
-	}
-	last = (*head);
-	int val = last->number;
-	(*head) = (*head)->next;
-	delete last;
-	return val;
-};
-
 /** \fn List* Get(List* head, int i)
 *	\brief Function returns pointer to i-th element
 *
 *	\param *head - list head pointer
 *	\param i - place of element
-*	\param k - counter
+*	<br>k - counter
 */
 List* Get(List* head, int i) {
 	int k=0;
@@ -69,7 +51,7 @@ List* Get(List* head, int i) {
 *	\param *head - list head pointer
 *	\param i - place of new element
 *	\param val - value of i-th element
-*	\var *tmp - temporary list pointer
+*	<br>*tmp - temporary list pointer
 */
 void Insert(List *head, int i, int val) {
 	List *tmp=NULL;
@@ -90,9 +72,9 @@ void Insert(List *head, int i, int val) {
 *
 *	\param **head - list head pointer-pointer
 *	\param i - place of old element
-*	\var *prev - list pointer returning (i-1)-th place
-*	\var *then - list pointer returning place of the next element
-*	\var val - value of this element
+*	<br>*prev - list pointer returning (i-1)-th place
+*	<br>*then - list pointer returning place of the next element
+*	<br>val - value of this element
 */
 void Pop(List **head, int i) {
 	if (*head==NULL) return;
@@ -105,12 +87,12 @@ void Pop(List **head, int i) {
 	}
 }
 
-/** \fn void Show(List *head)
+/** \fn void Show(List *head, int n)
 *	\brief Function returns values of the whole list
 *
 *	\param *head - list head pointer
 *	\param n - number of elements
-*	\var i - counter
+*	<br>i - counter
 */
 void Show(List *head, int n) {
 	int i=n;
