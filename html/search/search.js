@@ -7,10 +7,11 @@
 
 var indexSectionsWithContent =
 {
-  0: "gilps",
-  1: "l",
-  2: "l",
-  3: "gips"
+  0: "fgilpqs",
+  1: "lq",
+  2: "lq",
+  3: "fgipqs",
+  4: "s"
 };
 
 var indexSectionNames =
@@ -18,7 +19,8 @@ var indexSectionNames =
   0: "all",
   1: "classes",
   2: "files",
-  3: "functions"
+  3: "functions",
+  4: "related"
 };
 
 function convertToId(search)

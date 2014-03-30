@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['insert',['Insert',['../list_8cpp.html#a278065dacc88bda97efc92e70cb1e819',1,'list.cpp']]]
+  ['get',['Get',['../list_8cpp.html#af73328868dbd07381f0f5216f7145382',1,'list.cpp']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['list',['List',['../struct_list.html',1,'']]],
-  ['list_2ecpp',['list.cpp',['../list_8cpp.html',1,'']]]
+  ['insert',['Insert',['../list_8cpp.html#a278065dacc88bda97efc92e70cb1e819',1,'list.cpp']]]
 ];
