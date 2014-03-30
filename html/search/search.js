@@ -8,8 +8,8 @@
 var indexSectionsWithContent =
 {
   0: "fgilpqs",
-  1: "lq",
-  2: "lq",
+  1: "lqs",
+  2: "lqs",
   3: "fgipqs",
   4: "s"
 };

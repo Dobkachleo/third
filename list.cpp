@@ -4,7 +4,6 @@
 
 #include <stdio.h>
 #include <conio.h>
-#include <locale.h>
 
 /** \struct List
 *   \brief Struct is implementation of singly-linked list
@@ -104,23 +103,21 @@ void Show(List *head, int n) {
 
 int main()
 {
-	setlocale(LC_ALL,"rus");
-
 	int n=0,p=0,q=0;
-	printf("Введите количество элементов списка: ");
+	printf("Input number of elements: ");
 	scanf("%d",&n);
 	List *head=NULL;
 	for (int i=0; i<n; i++){
 		int j=0;
-		printf("Элемент № %d: ",i+1);
+		printf("Element # %d: ",i+1);
 		scanf("%d",&j);
 		Push(&head, j);
 	};
-	printf("Добавить элемент под номером ");
+	printf("Add element # ");
 	scanf("%d",&p);
-	printf("Его значение: "); scanf("%d",&q);
+	printf("Its value: "); scanf("%d",&q);
 	Insert(head, p, q);
-	printf("Удалить элемент под номером ");
+	printf("Delete element # ");
 	scanf("%d",&p);
 	Pop(&head, p);
 	printf("\n");

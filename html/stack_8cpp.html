@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>List &amp; queue &amp; stack: List Struct Reference</title>
+<title>List &amp; queue &amp; stack: stack.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -38,8 +38,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -60,9 +60,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -82,31 +81,36 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="struct_list-members.html">List of all members</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">List Struct Reference</div>  </div>
+<div class="title">stack.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Struct is implementation of singly-linked list.  
- <a href="struct_list.html#details">More...</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:aa3269fc6b46f38b86f70e4476d719406"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3269fc6b46f38b86f70e4476d719406"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>number</b></td></tr>
-<tr class="separator:aa3269fc6b46f38b86f70e4476d719406"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac45e23a57d3f6852fd26631fbbdaf6c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac45e23a57d3f6852fd26631fbbdaf6c8"></a>
-<a class="el" href="struct_list.html">List</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>next</b></td></tr>
-<tr class="separator:ac45e23a57d3f6852fd26631fbbdaf6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p>Stack implementation code.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br/>
+<code>#include &lt;conio.h&gt;</code><br/>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstack.html">stack</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stack functions.  <a href="classstack.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:af303e9660ddadb236d09358ea90cc7b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af303e9660ddadb236d09358ea90cc7b1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>show</b> (<a class="el" href="classstack.html">stack</a> st)</td></tr>
+<tr class="separator:af303e9660ddadb236d09358ea90cc7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Struct is implementation of singly-linked list. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="list_8cpp.html">list.cpp</a></li>
-</ul>
-</div><!-- contents -->
+<div class="textblock"><p>Stack implementation code. </p>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated on Sun Mar 30 2014 14:23:32 for List &amp; queue &amp; stack by &#160;<a href="http://www.doxygen.org/index.html">
